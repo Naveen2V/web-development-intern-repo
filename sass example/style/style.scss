@@ -1,0 +1,31 @@
+$h1:rgba(31, 37, 20, 0.5);
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color: rgb(203, 131, 36);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  .btn{
+    flex:end;
+    background-color: aqua;
+  }
+}
+.sec{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(167, 197, 197);
+  .h1{
+    color: $h1;
+  }
+  .p1, .p2{
+    color: $h1;
+  }
+}
+
+

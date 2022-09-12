@@ -1,0 +1,36 @@
+.parent{
+  background-color: rgb(241, 208, 162);
+  height: 600px;
+  width: 500px;
+  border-radius: 500vh;
+}
+.child{
+  background-color: rgb(255, 255, 255);
+  height: 50%;
+  width: 50%;
+  border-radius: 50vh;
+  transition: transform 1s ease-in;
+  animation: name 1s  ease-in forwards infinite alternate;
+}
+.parent:hover .child{
+  /* transform: translateX(100%) */
+  
+  animation-play-state: paused;
+}
+@keyframes name{
+  0%{
+    transform: translateX(0%);
+  }
+  44%{
+    transform: translateY(100%);
+    background-color: rgb(255, 203, 134);
+  }
+  88%{
+    transform: translate(100%) translateY(100%);
+    background-color: rgb(250, 229, 201);
+  }
+  100%{
+    transform: translateX(100%);
+    background-color: rgb(255, 255, 255);
+  }
+}

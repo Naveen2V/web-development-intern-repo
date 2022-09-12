@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(203, 131, 36);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+header .btn {
+  flex: end;
+  background-color: aqua;
+}
+
+.sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(167, 197, 197);
+}
+.sec .h1 {
+  color: rgba(31, 37, 20, 0.5);
+}
+.sec .p1, .sec .p2 {
+  color: rgba(31, 37, 20, 0.5);
+}/*# sourceMappingURL=style.css.map */

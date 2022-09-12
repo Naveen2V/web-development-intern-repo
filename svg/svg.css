@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+  background-color: darksalmon;
+  margin-top: 20px;
+
+}
+svg{
+  border-radius: 30px;
+}
+body{
+  text-align: center;
+}
+#right-women{
+  animation: women 1s ease-in-out infinite alternate;
+  transform-origin: top;
+}
+#left-women{
+  animation: women 1s ease-in-out infinite alternate;
+  transform-origin: top;
+}
+
+#men-arm{
+  animation: arm 1s ease-in-out infinite alternate-reverse;
+  transform-origin: top;
+}
+@keyframes women {
+  from{
+    transform: rotateX(30deg)
+  }
+  to{
+     transform:rotateX(0deg)
+  }
+}
+@keyframes arm {
+  from{
+    transform: rotateX(30deg)
+  }
+  to{
+     transform:rotateX(0deg)
+  }
+}
